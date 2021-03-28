@@ -1,0 +1,121 @@
+
+<a style="color:grey" href="TEASHIRT-WISHLIST.HTML"><i class="bi bi-handbag"></i></a><span id="pills">2</span>
+<hr class="landTop">
+<!-- landTop -->
+<div class="container landTop ">
+  <!-- landdd -->
+  <div class="row">
+    <div class="col-12 col-md-6 col-sm-12  ">
+      <div class="container">
+        <!-- col-sm-12 landdd landd -->
+        <div  class="row row-cols-2  landd">
+<div   *ngFor="let img of data.img;let i=index" class="col-12 col-sm-12 col-lg-6 col-md-6 p-0 ">
+<div class="card mt-0 landimg">
+  <img src="{{img}}" class="card-img-top" alt="...">
+</div>
+
+</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-12 col-md-6  col-sm-12 col-xs-12 ">
+
+      <div class="container ">
+        <div class="row landd col-sm-12">
+          <h5 class="mt-3 col-12">
+            BRAND
+          </h5>
+          <h5 class=" pt-2  branddetails">{{data.brand}}</h5>
+
+          <hr class="mt-3">
+          <h5 class="color-secondary">PRICE</h5>
+          <div class="container">
+            <div class="row">
+              <div class="col-1">
+          <h5 class=" pt-2 prisedetails">{{data.price}}</h5>
+              </div>
+<div class="col-11 pt-2">
+Rs
+</div>
+            </div>
+
+          </div>
+          <hr class="mt-3">
+          <h6 class="color-secondary">SIZE</h6>
+          <div>
+            <div class=" d-flex size">
+             <div *ngFor="let size of data.size ;let i=index;" class="d-flex flex-wrap">
+<div class=" d-flex flex-wrap fw-normal fs-4 pt-2 rounded-circle "
+  style="height:45px;width:45px;text-align: center; color:black;border:2px solid grey;margin-left:20px; " id='{{"size"+i}}'
+  (click)="sizeFunction(size,i)">
+  <h6 style="text-align:center ;padding-left:13px;">{{size}}</h6>
+</div>
+<!-- </div> -->
+             </div>
+            </div>
+            <!-- ===================================== -->
+
+            <!-- ===================================== -->
+              <!-- [routerLink]="['/cart',data.id,size]" -->
+            <button  class="btn  btn-outline-light btn-primary btn-inline btn-lg mt-5 border-0 cartbuton
+            "
+              style="background-color:#ff3e6c;position:relative;left:-5px;" id="disabledd" (click)="cartPageDisplay()" [disabled]="disable">add to cart <i
+                class="bi bi-handbag"></i>
+            </button>
+
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              class="btn btn btn-light btn-outline-secondary  btn-lg mt-5 " onclick="addTocart()">add to wish list <i
+                class="bi bi-heart"></i>
+
+            </button>
+
+            <hr>
+            <h4>reviwes and coments</h4>
+            <div class="container">
+              <div class="col row-cols-auto reviews">
+<div *ngFor="let com of data.coments ;let i=index"  class="col">
+  <div class="col">
+    <div class="row row-cols-2">
+      <div class="col" style="color:gray">
+        <h4>reviwer Name :</h4>{{com.reviewdBy}}
+      </div>
+      <div class="col" style="color:gray">
+        <h5>message :</h5><div class="text-dark">{{com.review}}</div>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="landTop">
+<!-- ======================================================================== -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">I WISH TO MAINTAIN YOUR DATA SO DO GET REGISTERED <i
+            class="bi bi-handbag"></i></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class=" card mb-3 modal-body modall" style="max-width: 540px;">
+      </div>
+      <div class="modal-footer">
+        <a href="TEASHIRT-LISTINGPAGE.HTML">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </a>
+
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- =========================================================================== -->

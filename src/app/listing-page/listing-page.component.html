@@ -1,0 +1,87 @@
+
+<hr class="griddd">
+<div class="container gridd ">
+  <div class="row filterr">
+    <div class="col-sm-3 filterrr">
+      <h4>FILTERS</h4>
+      <!-- col overflow-auto d-flex flex-column align-content-center filterrrr" -->
+      <div class=" container">
+        <div class="row overflow-auto scrolll">
+
+          <h6>MODEL APPEARENCE</h6>
+          <div class="row modalapearence">
+<div *ngFor="let modal of modalNames ;let i=index" class="col-12 form-check">
+  <input  class="form-check-input btn-outline-light checkk "
+    style="background-color:grey" type="checkbox" value="" id="defaultCheck1"  (click)="filterObjects('modal'+i)">
+  <label class="form-check-label dinga" id="" for="defaultCheck1">
+    <h6  id='{{"modal"+i}}'>{{modal}}</h6>
+  </label>
+</div>
+
+
+
+
+
+
+          </div>
+          <h6>BRAND</h6>
+
+          <div class="row brand">
+<div *ngFor="let brand of BrandNames;let i=index" class="col-12 form-check">
+  <input class="form-check-input btn-outline-light checkk " style="background-color:grey" type="checkbox" value=""
+    id="defaultCheck1"  (click)="filterObjects('brand'+i)">
+  <label class="form-check-label dinga" id="" for="defaultCheck1">
+    <h6  id='{{"brand"+i}}'>{{brand}}</h6>
+  </label>
+</div>
+
+
+          </div>
+          <h6>COLOR</h6>
+
+          <div class="row colorcol">
+  <div *ngFor="let color of colorNames; let i=index" class="col-12 form-check">
+    <input class="form-check-input btn-outline-light checkk  " style="background-color:{{color}}" type="checkbox" value=""
+      id="defaultCheck1" (click)="filterObjects('color'+i)">
+    <label class="form-check-label dinga" id="" for="defaultCheck1">
+      <h6 id='{{"color"+i}}'>{{color}}</h6>
+        <!-- {{checked}} -->
+    </label>
+  </div>
+          </div>
+          <!-- <h6>PRICE</h6>
+
+  <div class="col priceee">//newly comented should implement when needed
+
+  </div> -->
+        </div>
+
+      </div>
+    </div>
+    <!-- d-flex align-items-center align-content-center flex-wrap listt" -->
+    <div class="col-sm-9">
+      <div clas="container">
+        <div class="row listt" id="listPage">
+<div *ngFor="let d of ( l ==0?data:filterData);let i=index" class="col-12 col-sm-6 col-md-4  col-lg-3 mainListDiv ">
+<a  [routerLink]="['/men/landing',d.id]"style="text-decoration: none;" >
+  <div class="card mt-4 mr-5 back">
+    <img src="{{d.img[0]}}" class="card-img-top listzoom" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-dark">{{d.brand}}</h5>
+      <h6 class="card-title text-dark">{{d.price}} Rs</h6>
+    </div>
+  </div>
+</a>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="col-4 col-sm-6">
+          Level 2: .col-4 .col-sm-6
+        </div> -->
+</div>
+
+
+

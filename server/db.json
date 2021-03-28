@@ -1,0 +1,366 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "color": "black",
+      "hat": true,
+      "watch": true,
+      "groomed": true,
+      "price": 250,
+      "longhair": false,
+      "glasses": false,
+      "headphone": false,
+      "brand": "roadster",
+      "img": [
+        "assets/productsImages/11product.png",
+        "assets/productsImages/12product.png",
+        "assets/productsImages/13product.png",
+        "assets/productsImages/14product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "Dingi Mon",
+          "review": "modal to be changed"
+        },
+        {
+          "reviewdBy": "mocha",
+          "review": "modal is looking good"
+        },
+        {
+          "reviewdBy": "Dingi Mon",
+          "review": "modal to be changed"
+        },
+        {
+          "reviewdBy": "mocha",
+          "review": "modal is looking good"
+        },
+        {
+          "reviewdBy": "Dingi Mon",
+          "review": "modal to be changed"
+        },
+        {
+          "reviewdBy": "mocha",
+          "review": "modal is looking good"
+        },
+        {
+          "reviewdBy": "Dingi Mon",
+          "review": "modal to be changed"
+        },
+        {
+          "reviewdBy": "mocha",
+          "review": "modal is looking good"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "color": "gray",
+      "hat": false,
+      "watch": true,
+      "groomed": false,
+      "price": 450,
+      "longhair": false,
+      "glasses": true,
+      "headphone": false,
+      "brand": "moda",
+      "img": [
+        "assets/productsImages/21product.png",
+        "assets/productsImages/22product.png",
+        "assets/productsImages/23product.png",
+        "assets/productsImages/24product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "mansa",
+          "review": "best suits for my look"
+        },
+        {
+          "reviewdBy": "mani",
+          "review": "ohh shirt looks good only for mails"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "color": "steelblue",
+      "hat": false,
+      "watch": false,
+      "groomed": false,
+      "price": 600,
+      "longhair": false,
+      "glasses": false,
+      "headphone": true,
+      "brand": "london hills",
+      "img": [
+        "assets/productsImages/31product.png",
+        "assets/productsImages/32product.png",
+        "assets/productsImages/33product.png",
+        "assets/productsImages/34product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "diwakar",
+          "review": "i got the 2 pair again"
+        },
+        {
+          "reviewdBy": "vinayak",
+          "review": "i gifted to my friend diwakar "
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "color": "orange",
+      "hat": false,
+      "watch": true,
+      "groomed": true,
+      "price": 300,
+      "longhair": false,
+      "glasses": true,
+      "headphone": false,
+      "brand": "london hills",
+      "img": [
+        "assets/productsImages/41product.png",
+        "assets/productsImages/42product.png",
+        "assets/productsImages/43product.png",
+        "assets/productsImages/44product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "sony",
+          "review": "best suited for my boyfriend"
+        },
+        {
+          "reviewdBy": "suman",
+          "review": "good fiting"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "color": "lightcoral",
+      "hat": false,
+      "watch": false,
+      "groomed": true,
+      "price": 1500,
+      "longhair": false,
+      "glasses": false,
+      "headphone": false,
+      "brand": "louis philipe",
+      "img": [
+        "assets/productsImages/51product.png",
+        "assets/productsImages/52product.png",
+        "assets/productsImages/53product.png",
+        "assets/productsImages/54product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "nokia",
+          "review": "my employes are good on it"
+        },
+        {
+          "reviewdBy": "sergey brin",
+          "review": "i feel like coding when i wear this shirt"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "color": "black",
+      "hat": true,
+      "watch": false,
+      "groomed": true,
+      "price": 650,
+      "longhair": false,
+      "glasses": false,
+      "headphone": false,
+      "brand": "hrx",
+      "img": [
+        "assets/productsImages/61product.png",
+        "assets/productsImages/62product.png",
+        "assets/productsImages/63product.png",
+        "assets/productsImages/64product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "sravani",
+          "review": "I gifted to shanmuka and he didnt liked it"
+        },
+        {
+          "reviewdBy": "shanmuka",
+          "review": "my girlfriend gave it to me and i lied to her"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "color": "indianred",
+      "hat": true,
+      "watch": false,
+      "groomed": false,
+      "price": 1600,
+      "longhair": false,
+      "glasses": false,
+      "headphone": false,
+      "brand": "puma",
+      "img": [
+        "assets/productsImages/71product.png",
+        "assets/productsImages/72product.png",
+        "assets/productsImages/73product.png",
+        "assets/productsImages/74product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "anupam Mishra",
+          "review": "I wear it while playing football "
+        },
+        {
+          "reviewdBy": "anu",
+          "review": "i presented it to my boyfriend"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "color": "lightcoral",
+      "hat": false,
+      "watch": false,
+      "groomed": false,
+      "price": 500,
+      "longhair": true,
+      "glasses": true,
+      "headphone": false,
+      "brand": "moda",
+      "img": [
+        "assets/productsImages/81product.png",
+        "assets/productsImages/82product.png",
+        "assets/productsImages/83product.png",
+        "assets/productsImages/84product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "pinto",
+          "review": "pinto always looks good on it"
+        },
+        {
+          "reviewdBy": "chethan",
+          "review": "planing to by but no money"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "color": "lightcoral",
+      "hat": false,
+      "watch": false,
+      "groomed": false,
+      "price": 100,
+      "longhair": true,
+      "glasses": true,
+      "headphone": false,
+      "brand": "moda",
+      "img": [
+        "assets/productsImages/81product.png",
+        "assets/productsImages/82product.png",
+        "assets/productsImages/83product.png",
+        "assets/productsImages/84product.png"
+      ],
+      "size": [
+        "L",
+        "M",
+        "S",
+        "XL"
+      ],
+      "coments": [
+        {
+          "reviewdBy": "pinto",
+          "review": "pinto always looks good on it"
+        },
+        {
+          "reviewdBy": "chethan",
+          "review": "planing to by but no money"
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "productId": 1,
+      "brand": "roadster",
+      "img": "assets/productsImages/11product.png",
+      "size": "M",
+      "price": 250,
+      "product": "product",
+      "quantity": 2,
+      "id": 1
+    },
+    {
+      "productId": 2,
+      "brand": "moda",
+      "img": "assets/productsImages/24product.png",
+      "size": "XL",
+      "price": 450,
+      "product": "product",
+      "quantity": 2,
+      "id": 2
+    },
+    {
+      "productId": 2,
+      "brand": "moda",
+      "img": "assets/productsImages/23product.png",
+      "size": "S",
+      "price": 450,
+      "product": "product",
+      "quantity": 1,
+      "id": 3
+    }
+  ]
+}

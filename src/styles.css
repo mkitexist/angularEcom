@@ -1,0 +1,127 @@
+/* You can add global styles to this file, and also import other style files */
+.navbar {
+  height: 70px;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffff;
+}
+
+.dropp {
+  position: relative !important;
+  top: 3px;
+  color: #ff3e6c;
+  height: 360px;
+  width: 850px;
+}
+
+.marr {
+  position: relative !important;
+  left: 45px;
+  font-size: 13px;
+  font-weight: 700;
+  color: black !important;
+}
+
+.navfont {
+  color: rgba(7, 7, 7, 0.801) !important;
+}
+
+i {
+  font-size: 17px;
+  font-weight: 900 !important;
+}
+
+.iconfont {
+  color: #070707 !important;
+  font-size: 12px;
+  font-weight: 600 !important;
+}
+
+.log {
+  position: relative !important;
+  left: 50px;
+}
+
+.sta {
+  position: relative !important;
+  top: 52px !important;
+}
+
+.inpu {
+  position: relative !important;
+  left: -400px;
+}
+
+.iconss > i {
+  margin-right: 30px;
+}
+
+.mar {
+  margin-top: 40px;
+}
+
+.dropnav {
+  background-color: #ffff;
+}
+
+.gridd {
+  position: relative !important;
+  top: 100px;
+  margin-top: 50px;
+}
+
+.griddd {
+  position: relative !important;
+  top: 70px;
+}
+
+.checkk {
+  background-color: #ff3e6c;
+}
+
+.listzoom:hover {
+  /* transition; */
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transform: scale(0.7, 0.7);
+          transform: scale(0.7, 0.7);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+
+.back:hover {
+  background-color: #d2d5d9 !important;
+  border: 2px solid #d2d5d9;
+  color: black !important;
+}
+
+.landTop {
+  position: relative !important;
+  top: 80px;
+}
+
+@media (max-width: 990px) {
+  .searchBar {
+    position: relative !important;
+    left: 20px !important;
+  }
+  .iconss > i {
+    position: relative !important;
+    left: 130px !important;
+  }
+}
+
+.scrolll {
+  height: 400px;
+}
+
+@media (max-width: 600px) {
+  .scrolll {
+    height: 130px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
